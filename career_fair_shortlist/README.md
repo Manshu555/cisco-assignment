@@ -84,7 +84,7 @@ The overlap between the first two suites is intentional: one asks "does this
 function work?", the other asks "does the spec hold?". The UI suite drives the
 real Streamlit script — clicking buttons, editing fields — with no browser.
 
-Captured evidence: `docs/evidence/`.
+Captured evidence: `docs/evidence/` (kept locally; not published to the repo).
 
 ## 6. Sample data and expected result
 
@@ -201,7 +201,7 @@ career_fair_shortlist/
 │   ├── test_app_ui.py        #  10 — headless UI behaviour via Streamlit AppTest
 │   └── test_cli.py           #   6 — CLI flag overlay and report shape
 │
-└── docs/
+└── docs/                  # working documents - local only, not in the repo
     ├── PLAN.md               # 5-step implementation plan + checkpoints
     ├── ARCHITECTURE.md       # layers, boundaries, data flow
     ├── DESIGN.md             # design decisions, AI influence, trade-offs

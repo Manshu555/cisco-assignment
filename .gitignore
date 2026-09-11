@@ -1,0 +1,10 @@
+# Local caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Personal - not part of the assignment deliverable
+resume.tex
+
+# Working documents - kept locally, not published
+career_fair_shortlist/docs/
