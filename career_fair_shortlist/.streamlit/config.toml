@@ -1,0 +1,34 @@
+# Theme tokens for the Career Fair Eligibility Shortlist.
+# See docs/frontend.md section 4 - every value is contrast-checked there.
+# Expressed as theme tokens rather than CSS so the design survives Streamlit
+# upgrades (hashed emotion class names do not).
+# Written against Streamlit 1.63.
+
+[theme]
+# --- core ---
+base                     = "light"
+primaryColor             = "#1D4ED8"   # primary button, focus ring, links
+backgroundColor          = "#F8FAFC"   # canvas
+secondaryBackgroundColor = "#FFFFFF"   # surfaces lift off the canvas
+textColor                = "#334155"   # body
+font                     = "sans-serif"
+
+# --- structure ---
+baseRadius               = "0.5rem"
+borderColor              = "#CBD5E1"
+linkColor                = "#1D4ED8"
+showWidgetBorder         = true
+
+# --- reason codes and role IDs are literal contract strings, so they are
+#     set in a monospace face (docs/frontend.md section 5) ---
+codeFont                 = "monospace"
+codeBackgroundColor      = "#F1F5F9"
+codeTextColor            = "#334155"
+
+# --- KPI tiles are the verdict; give them presence (section 5 scale) ---
+metricValueFontSize      = "40px"
+metricValueFontWeight    = 700
+
+# --- requirements table: quiet header, matching border ---
+dataframeHeaderBackgroundColor = "#F1F5F9"
+dataframeBorderColor           = "#CBD5E1"
